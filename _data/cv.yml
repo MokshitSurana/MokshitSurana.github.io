@@ -2,96 +2,92 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Mokshit Surana
+    - name: Email
+      value: msura4@uic.edu
+    - name: Phone
+      value: "+1 (331) 269-4898"
+    - name: GitHub
+      value: MokshitSurana
+    - name: LinkedIn
+      value: MokshitSurana
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.S. in Computer Science
+      institution: University of Illinois at Chicago
+      year: 2024 - 2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - GPA: 3.61/4
+    - title: B.E. in Information Technology
+      institution: Thadomal Shahani Engineering College, University of Mumbai
+      year: 2020 - 2024
       description:
-        - Description 1.
-        - Description 2.
+        - CGPA: 9.43/10
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Hourly Assistant
+      institution: University of Illinois, Chicago, USA
+      year: Jan 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Co-authored research papers on clinical prediction and metadata enrichment systems.
+        - Mentored 6 graduate students analyzing 40k+ MIMIC-III patient records.
+    - title: Machine Learning Engineer
+      institution: SimPPL (Remote)
+      year: Feb 2023 - Jun 2024
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Led research on influence operations and misinformation on alt-tech platforms.
+        - Built data pipelines processing 500k+ videos and 80M+ comments.
+        - Designed NLP pipelines for bias detection using 460k extremist text samples.
+        - Mentored 2 interns and coordinated data annotation.
+    - title: Teaching Assistant, AI and Data Science II Lab
+      institution: University of Mumbai, India
+      year: Aug 2023 - Nov 2023
       description:
+        - Led weekly labs covering backpropagation, CNNs, RNNs, and transformers.
+    - title: Technology Intern
+      institution: Deutsche Bank, Pune, India
+      year: Jun 2023 - Jul 2023
+      description:
+        - Automated CSV validation with SpringBoot and OracleDB, reducing processing time by 96.7%.
+        - Developed a SpringBoot application for customizable PDF generation from API inputs.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Publications
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "Leveraging CNNs and Ensemble Learning for Automated Disaster Image Classification. *Algorithms for Intelligent Systems,* ICSISCET, 2023."
+    - "Mechanism of Action: A comparative study. *Lecture Notes in Networks and Systems,* ICTCS, 2023."
+    - "Multi-Agent Simulators for Social Networks. Multi-Agent Security Workshop, NeurIPS, 2023."
+    - "Examining the Implications of Deepfakes for Election Integrity. AI for Credible Elections workshop, AAAI, 2024."
+
+- title: Projects
+  type: time_table
+  contents:
+    - title: Cross Lingual Text-to-Video Synthesis of Government Press Releases
+      year: 2024
+      description:
+        - Built an end-to-end AI pipeline to generate multilingual videos from press releases.
+        - Designed components with distributed processing for multiple language pipelines.
+    - title: Conversational Fashion Outfit Generator powered by GenAI
+      year: 2024
+      description:
+        - Developed an AI-driven e-commerce platform for personalized fashion recommendations.
+        - Implemented control algorithms with modular design for real-time interactions.
+
+- title: Technical Skills
+  type: list
+  contents:
+    - <u>Languages:</u> Python, Java, SQL, C++, C, JavaScript, Bash
+    - <u>Developer Tools:</u> GCP (Vertex AI, BigQuery, VMs), AWS (Lambda, EC2, S3), Kubernetes, Git, GitHub, Terraform, Docker
+    - <u>Databases:</u> Qdrant, MongoDB, Neo4j, MySQL, Redis
+    - <u>Frameworks:</u> SpringBoot, FastAPI, TensorFlow, Scikit-Learn, Pandas, HuggingFace, LangChain, PyTorch, Next.js, React.js
+
+- title: Leadership and Extracurricular
+  type: list
+  contents:
+    - Won 5 hackathons and consistently ranked in the top 10 teams.
+    - Knight Badge on Leetcode and ranked in the top 5% in contests; 1st place in TSEC Weekly Coding Challenges'23.
+    - Served as Student Mentor and Core Team Member at Google Developer Student Club, and General Body Member at Rotaract Club.

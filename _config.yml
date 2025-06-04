@@ -2,12 +2,16 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: Mokshit Surana
+first_name: Mokshit
+middle_name:
+last_name: Surana
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Email: <a href="mailto:msura4@uic.edu">msura4@uic.edu</a><br>
+  Phone: +1 (331) 269-4898<br>
+  <a href="https://www.linkedin.com/in/MokshitSurana/">LinkedIn</a> ·
+  <a href="https://github.com/MokshitSurana">GitHub</a> ·
+  <a href="https://scholar.google.com/citations?user=ezgttgcAAAAJ&hl=en">Scholar</a>
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -275,8 +279,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Surana]
+  first_name: [Mokshit]
 
   style: apa
   locale: en
